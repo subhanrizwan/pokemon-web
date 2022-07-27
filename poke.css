@@ -1,0 +1,861 @@
+    body{
+    width: 100vw;
+    height: 350vh;
+    margin: 0;
+    font-family:var(var(--bs-body-font-family)) ;
+
+    display: flex;
+}
+.main-cont{
+    width: 100%;
+    flex:5;
+  /*  background-color: aqua;*/
+
+    display: flex;
+    flex-direction: column;
+
+}
+.nav-bar-1{
+    flex: 0.12;
+   /* background-color: blueviolet;*/
+    
+
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+
+}
+.nav-bar-child{
+    width: 60%;
+    height: 65px;
+   /* background-color: aquamarine;*/
+
+    display: flex;
+    align-items: center;
+
+}
+.chotay-3{
+    width: 16%;
+    height: 65px;
+    
+   /* border: 1px solid brown;*/
+    border-left: 1px solid lightgray;
+
+    display: flex;
+    
+}
+.chotay-3 li{
+   /* background-color: white;*/
+    position: relative;
+    bottom: 16px;
+    right:1px ;
+    
+}
+.bara-2{
+    width: 30%;
+    height: 50px;
+    border: 1px solid black;
+    margin: 1px;
+    
+}
+/*@media screen and  (max-width:500px)  {
+    .nav-bar-child {
+        width: 100%;
+        height: 50px;
+        background-color: whitesmoke;
+        /*background-color: ;
+        display: flex;
+        align-items: center;
+    }
+    .bara-2 {
+        display: none;
+        width: 0%;
+        height: 0px;
+        border: 0px solid ;
+        margin: 0px;
+    }
+    .chotay-3 {
+        width: 28%;
+        height: 63px;
+        border: 1px solid brown;
+        display: flex;
+    }
+    .chotay-3 li{
+        position: relative;
+        bottom: 0px;
+        right:5px ;
+        top: 10px;
+        
+    }
+    .chotay-4{
+        width: 18%;
+        height: 63px;
+        background-image: url(../img/gus/arrow.png);
+        border: 1px solid brown;
+        display: flex;
+
+    }
+    .left-child{
+        display: none;
+        flex: 0.1;
+        background-color:gray;
+    }
+    .right-child{
+        display: none;
+        flex: 0.1;
+        background-color:gray ;
+    }
+    
+}*/
+
+.nav-bar-2{
+    flex: 0.09;
+  /*  background-color: brown;*/
+
+    display: flex;
+    
+
+}
+
+.header-2-child{
+    width: 100%;
+    height:90px;
+    /*background-color: black;*/
+    position: relative;
+
+
+    display: flex;
+    border-bottom: 0.5px solid lightgray;
+
+    
+    }
+.boxes{
+    background-color: white;
+    height: 100%;
+    width: 9%;
+   border: 1px solid yellow;
+   position: relative;
+    left: 27.5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dos img{
+    width: 60%;
+    height:60%;
+}
+ .phl{
+    display: none;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+/*.phl svg{
+width: 100%;
+height: 40%;
+}*/
+.dos span{
+color:black;
+}
+.middle-container{
+    flex: 4;
+   /* background-color: burlywood;*/
+
+    display: flex;
+    
+}
+
+.middle-child{
+    flex: 1;
+    background-color: white;
+    background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png
+    );
+
+    display: flex;
+}
+.start{
+    flex: 0.1;
+   /* background-color: gray;*/
+
+    display: flex;
+    
+}
+.start-child{
+    width: 27%;
+    height: 100%;
+background-color: black;
+background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+
+}
+.login-div{
+    width: 4.8%;
+    height: 25%;
+    border: 2px solid black;
+    position: relative;
+    left: 33px;
+    position:fixed;
+    
+}
+.first{
+    width: 100%;
+    height: 60%;
+    background-color: #54b564;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-ogin{
+    width: 80%;
+    height: 80%;
+    /*border: 1px solid yellow;*/
+
+}
+.icon-ogin img{
+width: 78%;
+height: 48%;
+position: relative;
+top: 10%;
+left: 10%;
+
+}
+.icon-ogin p{
+    font-size: x-small;
+    color: white;
+    position: relative;
+    top:10% ;
+left: 20%;
+}
+.second{
+    width: 103%;
+    height: 40.1%;
+    background-color: rgb(40,40,40);
+    position: relative;
+    right: 2px;
+
+    display: flex;
+    
+}
+.second span{
+    color: white;
+    position: relative;
+    top: 30%;
+}
+
+.middle{
+    flex: 0.8;
+   /* background-color:palevioletred;*/
+
+display: flex;
+flex-direction: column;
+}
+.stick-parent{
+    width: 100%;
+    height: 1%;
+    background-color: white;
+
+    
+    display: flex;
+    justify-content: center;
+
+}
+.stick-1{
+    width:11.2%;
+    margin: 1;
+    height: 40%;
+    border-bottom-left-radius: 8px;
+
+    background-color: gray;
+    display: flex;
+}
+
+.stick-2{
+    width: 11.2%;
+    height: 40%;
+    background-color:red;
+}
+.stick-3{
+    width: 11.2%;
+    height: 40%;
+    background-color: orangered;
+}
+.stick-4{
+    width:11.2%;
+    height: 40%;
+    background-color: yellow;
+    
+}
+.stick-5{
+    width:11.3%;
+    margin: 1;
+    height: 40%;
+    background-color: green;
+}
+.stick-6{
+    width:11.2%;
+    margin: 1;
+    height: 40%;
+    background-color: rgb(0,0, 270);
+}
+.stick-7{
+    width:11.2%;
+    margin: 1;
+    height: 40%;
+    background-color: lightskyblue;
+    border-bottom-right-radius: 8px;
+}
+/*.videogames-t{
+    width: 100%;
+    height: 4%;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+}
+.videogames-t h1{
+    font-weight: lighter;
+    position: relative;
+    left: 10%;
+}*/
+.cards-div{
+
+position: relative;
+bottom: 15px;
+    width:100%;
+    height: 45%;
+    background-color: whitesmoke;
+
+    display: flex;
+    justify-content: center;
+
+}
+.first-row{
+    width: 54%;
+    height: 100%;
+  /* background-color:yellow;*/
+
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    height: 260px;
+    }
+    .card1-body{
+        height: 120px;
+        border-bottom-left-radius: 08px;
+        border-bottom-right-radius: 08px;
+
+    }
+    .first-row-div-1{
+        width: 99%;
+        height: 45%;
+        position: relative;
+        bottom: 0px;
+
+        /*background-color: brown;*/
+    
+        display: flex;
+        justify-content: space-around;
+    }
+    .div-1-childs{
+        width: 45%;
+        height: 99%;
+    
+        /*background-color: blanchedalmond;*/
+        border-radius: 10px;
+
+        display: flex;
+    
+    }
+
+    .card2 img{
+        height: 55%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .card3 img{
+        height: 55%;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .card3-body{
+        height: 40%;
+        background-color: lightgray;
+        border-radius: 10px;
+    }
+    .card2-body{
+        background-color: lightgray;
+        height: 40%;
+        border-radius:10px;
+    }
+
+.second-row{
+    position: relative;
+    left: 5px;
+    
+    width:26% ;
+    height: 100%;
+    /*background-color: gray;*/
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.sec-row-child-1{
+    width: 94%;
+    height: 20%;
+    /*border: 1px solid yellow;*/
+    border-radius: 10px;
+
+    display: flex;
+
+}
+.col-md-4 img{
+    height: 31%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+    
+
+.card4 {
+    height: 84%;
+    width: 100%;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    
+}
+.sec-row-child-2{
+    width: 94%;
+    height: 38%;
+   /* border: 1px solid yellow;*/
+    border-radius: 08px;
+    
+display: flex;
+    
+}
+.card5 img{
+    height: 55%;
+    width: 100%;
+    border-top-left-radius: 08px;
+    border-top-right-radius: 08px;
+    
+}
+
+.end{
+    
+    flex: 0.1;
+   /* background-color: gray;*/
+
+    display: flex;
+    justify-content:flex-end;
+}  
+.end-child{
+    background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+
+        width: 42%;
+        height: 100%;
+    background-color: black;
+    
+    
+}
+.slider-cont{
+    width: 116.4%;
+    flex: 1;
+    position: relative;
+    right: 9.1%;
+    background-color:white;
+
+    display:flex;
+    flex-direction: column;
+
+}
+.slide-child-one{
+width: 24%;
+height: 11%;
+background-color: rgb(40, 40, 40);
+position: relative;
+left: 10%;
+border-top-left-radius: 08px;
+border-top-right-radius: 08px;
+
+ display: flex;
+ align-items: center;
+}
+.slide-child-one img{
+    color: lightgray;
+}
+.slide-child-one h4{
+color: white;
+position: relative;
+top: 4%;
+}
+.slide-child-sec{
+    width: 100%;
+    height:100% ;
+    background-color: rgb(40, 40, 40);
+
+    display: flex;
+    justify-content: center;
+
+}.center{
+    display: flex;
+}
+.center img{
+
+    width: 100%;
+    height: 80%;
+
+}
+/*.your-class{
+   background-color: lightgray;
+    width: 95%;
+    height: 100%;
+}
+/*.carousel-inner{
+    display: flex;
+    justify-content: center;
+}
+.carousel {
+    height: 100%;
+    width: 80%;
+    background-color:rgb(40, 40, 40);
+    display: flex;
+}
+.carousel-item img{
+    background-color: gray;
+    width: 25%;
+    height: 150px;
+    position: relative;
+    right: 10%;
+
+}
+.mini-profile{
+    background-color: lightcoral;
+    position: relative;
+    right: 10%;
+    
+}*/
+.like-videos{
+    width: 100%;
+    height: 12% ;
+   background-color: whitesmoke;
+}
+.like-videos button{
+    
+    height: 90%;
+    position: relative;
+    left: 70%;
+    top: 4%;
+}
+
+.card-div-1-second{
+    height:27% ;
+    background-color:black;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-div-row1{
+    width: 32%;
+    height: 98%;
+   /* background-color: blueviolet;*/
+
+    
+}
+.cards-body , .carde-body{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 65%;
+}
+
+.card-div-row2{
+    width: 32%;
+    height:100%;
+    /*background-color: blue;*/
+
+}
+.card-div-row3{
+    width:32% ;
+    height: 98%;
+   /* background-color:brown ;*/
+
+}
+.card-body{
+    height: 155px;
+}
+
+
+.bottom-line{
+    width: 100%;
+    height: 4%;
+   /*background-color: black;*/
+   background-image: url();
+
+    display: flex;
+    flex-direction: column;
+}
+.boot-line {
+    
+    width: 116.5%;
+    height: 42%;
+    position: relative;
+    bottom: -12px;
+    left: -9.2%;
+    /*background-color: gray;*/
+    display: flex;
+    justify-content: space-between;
+}
+.child1{
+    
+    display: flex;
+    align-items: flex-end;
+}
+.child2{
+    background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+    background-color: black;
+}
+
+.small{
+    background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+    width: 15%;
+    height: 60%;
+    background-color: black;
+    
+}
+.lines{
+    border-top-right-radius:50px ;
+}
+.lines1{
+    border-top-left-radius: 50px;
+}
+.footer{
+    flex: 0.49;
+    background-color: rgb(40, 40, 40);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    width: 24%;
+    height: 95%;
+    margin: 1px;
+    /*background-color: gray;*/
+
+    display: flex;
+    
+}
+.first1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.subhan-text{
+    width: 100%;
+    height: 18%;
+    /*background-color: aquamarine;*/
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.subhan-text b{
+    color: gray;
+    font-size: x-large;
+}
+.bootm-foot{
+    width: 100%;
+    height: 82%;
+   /* background-color: yellow;*/
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+}
+/*.the-comp{
+    width: 100%;
+    height: 5%;
+    background-color: blue;
+}*/
+
+
+.first ul{
+    color: gray;
+
+}
+li a{
+    color: gray;
+    font-size: x-small;
+    font-weight: bold;
+}
+ul li{
+    color: gray;
+    width: 150px;
+height: 20px;
+    /*position: relative;
+    top: 70px;
+    right: 110px;*/
+}
+.second{
+    display: flex;
+    justify-content: center;
+    border-left: 2px solid black;
+}
+.social-media{
+    width: 80%;
+    height: 20%;
+    /*background-color:aqua ;*/
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.facebook{
+    width: 15%;
+    height: 90%;
+    background-color:rgb(45, 45, 131);
+    margin: 1px;
+    border-radius: 5px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.you{
+    width: 15%;
+    height: 90%;
+    background-color:rgb(250,0, 0);
+    margin: 1px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twi{
+    width: 15%;
+    height: 90%;
+    background-color:rgb(23, 23, 199);
+    margin: 1px;
+    border-radius: 5px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ins{
+    width: 15%;
+    height: 90%;
+    background-color:rgb(238, 5, 83);
+    margin: 1px;
+    border-radius: 5px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pins{
+    width: 15%;
+    height: 90%;
+    background-color:rgb(216, 14, 14);
+    margin: 1px;
+    border-radius: 5px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fb{
+    width: 25px;
+    height: 25px;
+    color: white;
+    /*background-color: white;*/
+}
+.you svg{
+    height: 25px;
+    width: 25px;
+    color:white;
+    
+    
+
+}
+.twi svg{
+    height: 25px;
+    width: 25px;
+    color:white;
+}
+.ins svg{
+    height: 25px;
+    width: 25px;
+    color:white;
+}
+.pins svg{
+    height: 25px;
+    width: 25px;
+    color:white;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 2px solid black;
+}
+.third-child{
+    width: 90%;
+    height: 70%;
+    /*background-color: aqua;*/
+    /*position: relative;
+    left: 10%;
+    top: 10%;*/
+    display: flex;
+
+
+}
+.third-child img{
+    height: 40%;
+    width: 100%;
+position: relative;
+top: 35%;
+}
+a{
+    color: gray;
+}
+
+a p{
+    width: 120px;
+    height: 5px;
+    font-size: x-small;
+position: relative;
+right: 20px;
+top: 45px;
+color: grey;
+}
+.third-child-2{
+    width: 60%;
+    height: 23%;
+
+    /*background-color: aqua;*/
+
+}
+.third-child-2 p{
+    color: gray;
+    font-size: xx-small;
+    
+}
